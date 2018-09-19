@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cqfae.cipher.GestureActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="手势密码登录"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <com.cqfae.cipher.GestureCipherView
+        android:id="@+id/view_gesture"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        gesture:minTracePoint="4"
+        gesture:outRadius="30dp"
+        gesture:selectColor="#00ff00"
+        gesture:unSelectColor="#00ff00"
+        gesture:vibrate="true" />
+</LinearLayout>

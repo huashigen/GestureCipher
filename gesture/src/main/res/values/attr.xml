@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="gesture">
+        <!--最少连接点数量-->
+        <attr name="minTracePoint" format="integer" />
+        <!--被选中时的颜色-->
+        <attr name="selectColor" format="color|reference" />
+        <!--未被选中时的颜色-->
+        <attr name="unSelectColor" format="color|reference" />
+        <!--是否有震动效果-->
+        <attr name="vibrate" format="boolean" />
+        <!--内部圆半径-->
+        <attr name="innerRadius" format="dimension|reference" />
+        <!--外部圆半径-->
+        <attr name="outRadius" format="dimension|reference" />
+        <!--线宽度-->
+        <attr name="lineWidth" format="dimension|reference" />
+        <!--圆圈线宽度-->
+        <attr name="circleLineWidth" format="dimension|reference" />
+        <!--圆圈之间的margin-->
+        <attr name="margin" format="dimension|reference" />
+        <!--显示错误轨迹的颜色-->
+        <attr name="errorColor" format="color|reference" />
+        <!--是否显示错误轨迹-->
+        <attr name="showErrorTrace" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
